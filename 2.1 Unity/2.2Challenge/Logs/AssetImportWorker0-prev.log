@@ -1,0 +1,1467 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19043.2006; Version 2009; 64bit' Language: 'en' Physical Memory: 32528 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/snguyen31/Documents/GitHub/Unity-cool-Vr-1/2.1 Unity/2.2Challenge
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49503
+Successfully changed project path to: C:/Users/snguyen31/Documents/GitHub/Unity-cool-Vr-1/2.1 Unity/2.2Challenge
+C:/Users/snguyen31/Documents/GitHub/Unity-cool-Vr-1/2.1 Unity/2.2Challenge
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/snguyen31/Documents/GitHub/Unity-cool-Vr-1/2.1 Unity/2.2Challenge/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P5200 (ID=0x1bb5)
+    Vendor:   
+    VRAM:     16255 MB
+    Driver:   30.0.15.1236
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001860 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (368ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (142ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2528.
+Total: 3.015500 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.061600 ms MarkObjects: 2.709300 ms  DeleteObjects: 0.056200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sunnyland/artwork/Environment
+  artifactKey: Guid(7174750bdca91466fa784bba50da49b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment using Guid(7174750bdca91466fa784bba50da49b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0206cb2bfe385659083c10b1a15be05') in 0.008738 seconds 
+  Import took 0.011513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sunnyland
+  artifactKey: Guid(1d99d2024c39850488e52e7dcac27d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland using Guid(1d99d2024c39850488e52e7dcac27d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dad01c4570fb2491e2fb764313d7473') in 0.005928 seconds 
+  Import took 0.008820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset-sliced.png
+  artifactKey: Guid(261212b977f594d5dbc48631a5c1295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset-sliced.png using Guid(261212b977f594d5dbc48631a5c1295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ded7db3fed6e2c615e8df87d932687c') in 0.333631 seconds 
+  Import took 0.336976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sunnyland/artwork/Environment/middle.png
+  artifactKey: Guid(de41d366c687a46beb6a9acaa88c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/middle.png using Guid(de41d366c687a46beb6a9acaa88c12db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bd9318211340215f5e607914c3e710') in 0.015433 seconds 
+  Import took 0.019589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sunnyland/artwork/Environment/back.png
+  artifactKey: Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/back.png using Guid(8e160a2a620644cd6afef9119dad1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184fba7dd6918a074fc56c224f70b71e') in 0.022922 seconds 
+  Import took 0.027003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tileset.png
+  artifactKey: Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tileset.png using Guid(3b66e1a27c9634fe9a4746c47eeda7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e60e5edc645a6df5843e12d955ac25') in 0.019538 seconds 
+  Import took 0.023471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sunnyland/artwork
+  artifactKey: Guid(2f17d1e6a207e4d8eb72bd03b1b645ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork using Guid(2f17d1e6a207e4d8eb72bd03b1b645ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a74d76d4688b1d4a5c3a255f24721c') in 0.008508 seconds 
+  Import took 0.012189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.707982 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap
+  artifactKey: Guid(3b29958f7e42d484c924af83b5333740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap using Guid(3b29958f7e42d484c924af83b5333740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f4177ba9aad1ef2584e4305ade9555') in 0.008341 seconds 
+  Import took 0.011806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.720764 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/big-crate.png
+  artifactKey: Guid(3fc2bbd409bf34ab6af1637bab569da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/big-crate.png using Guid(3fc2bbd409bf34ab6af1637bab569da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd818f8752904d268517b24068fd21a79') in 0.020594 seconds 
+  Import took 0.024018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/spikes-top.png
+  artifactKey: Guid(c6803a2a3fe7f45e786b788e8ddb6771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/spikes-top.png using Guid(c6803a2a3fe7f45e786b788e8ddb6771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84982e8ddc98ce7e9efd4d48f5927e0') in 0.014694 seconds 
+  Import took 0.020922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/crate.png
+  artifactKey: Guid(794aa25d484d140d89ea9601c122ece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/crate.png using Guid(794aa25d484d140d89ea9601c122ece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8a75ef33aae70c980a8b4698e2d3f1') in 0.020844 seconds 
+  Import took 0.024503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/spike-skull.png
+  artifactKey: Guid(a225befe4953547da8c4133e5d585029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/spike-skull.png using Guid(a225befe4953547da8c4133e5d585029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77cec8bb30138a168d15d488b3637cd') in 0.017928 seconds 
+  Import took 0.021882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/tree.png
+  artifactKey: Guid(f7187675ec12e4aacaeb0e97ad31230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/tree.png using Guid(f7187675ec12e4aacaeb0e97ad31230a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086ee8b898ee609d86b54cf50b805f9e') in 0.021857 seconds 
+  Import took 0.026594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/door.png
+  artifactKey: Guid(8a26d60fb45014bcd9bb392106f7c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/door.png using Guid(8a26d60fb45014bcd9bb392106f7c98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e4f42bce949edc3471faff08ded54d') in 0.016783 seconds 
+  Import took 0.020714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/spikes.png
+  artifactKey: Guid(0049772a1acaf4a49b69bb504ffe2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/spikes.png using Guid(0049772a1acaf4a49b69bb504ffe2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8e3b01222e7433b4f4a6e2e94ac1bd') in 0.018707 seconds 
+  Import took 0.022496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/platform-long.png
+  artifactKey: Guid(15fdc3c0ac15e4a62b3f968392db8b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/platform-long.png using Guid(15fdc3c0ac15e4a62b3f968392db8b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe2a4b959a7d3037a66376cd68f8cc3') in 0.019645 seconds 
+  Import took 0.023407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/bush.png
+  artifactKey: Guid(ecc204495234d40f091d828790c56287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/bush.png using Guid(ecc204495234d40f091d828790c56287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2685323538171c271754ba18f34404ea') in 0.016949 seconds 
+  Import took 0.020376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/sign.png
+  artifactKey: Guid(42820af2772f24bda991ed7de294c2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/sign.png using Guid(42820af2772f24bda991ed7de294c2fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e5ec715e1562d0bbed77d5e58ab7eb') in 0.020049 seconds 
+  Import took 0.024405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/crank-down.png
+  artifactKey: Guid(d3240c946631a4966b1bcab3db999126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/crank-down.png using Guid(d3240c946631a4966b1bcab3db999126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d37b6e7e3c6aa476e11dadf61cfa0a') in 0.020474 seconds 
+  Import took 0.024326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/shrooms.png
+  artifactKey: Guid(f106f73fc33df4c4d9a3e8a5cb54db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/shrooms.png using Guid(f106f73fc33df4c4d9a3e8a5cb54db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20351e546fd532ff1c424bb9ba5cd145') in 0.019688 seconds 
+  Import took 0.024779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/skulls.png
+  artifactKey: Guid(a86fabb3151544d25b4310ff397f732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/skulls.png using Guid(a86fabb3151544d25b4310ff397f732a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a81df93c15eb0d6dbd5ce4e7e2c665') in 0.018966 seconds 
+  Import took 0.022441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/house.png
+  artifactKey: Guid(52422ada2db954026a3ae1f1ba6b4486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/house.png using Guid(52422ada2db954026a3ae1f1ba6b4486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e881439706948ef5e81edda46ed9e110') in 0.020923 seconds 
+  Import took 0.026158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/face-block.png
+  artifactKey: Guid(f34e83b5f0fe1432cb87276148dc6341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/face-block.png using Guid(f34e83b5f0fe1432cb87276148dc6341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdb0ce27de54ce7218ec84a3cf112b4') in 0.017851 seconds 
+  Import took 0.021186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/rock.png
+  artifactKey: Guid(3604a08945c65491a9ffb90ad9a8ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/rock.png using Guid(3604a08945c65491a9ffb90ad9a8ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee9e1a30ac13055580566f44e73a42c') in 0.018290 seconds 
+  Import took 0.024804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/block-big.png
+  artifactKey: Guid(5bccf13ce09bd43e39c1c3416d5de92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/block-big.png using Guid(5bccf13ce09bd43e39c1c3416d5de92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85fb857174ed0c43907c3aa0d9ee914') in 0.016208 seconds 
+  Import took 0.020162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/block.png
+  artifactKey: Guid(8a8849b7b8b964564b9e89cb1ded0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/block.png using Guid(8a8849b7b8b964564b9e89cb1ded0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239ea3223e0c7febf0b03881ad0747dc') in 0.016728 seconds 
+  Import took 0.020190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/crank-up.png
+  artifactKey: Guid(441a2d89600064d4d9ced045b19d0ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/crank-up.png using Guid(441a2d89600064d4d9ced045b19d0ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd96c967b1942017a533f66bf25c595') in 0.016928 seconds 
+  Import took 0.020825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/small-platform.png
+  artifactKey: Guid(d3ae29bc873704d6197af9ad030f1b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/small-platform.png using Guid(d3ae29bc873704d6197af9ad030f1b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d3989668aec5dac8f1156521182acd') in 0.017346 seconds 
+  Import took 0.022558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.605412 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props/house.asset
+  artifactKey: Guid(a3679080e5323e5439913c52f9325acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props/house.asset using Guid(a3679080e5323e5439913c52f9325acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a702b373ec436a188565a460e7f147') in 0.032397 seconds 
+  Import took 0.036348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.717151 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props
+  artifactKey: Guid(15e7312e0607f4e84aeacdc44a70744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props using Guid(15e7312e0607f4e84aeacdc44a70744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef14071724558cefaa6476b5eb4eae9') in 0.008341 seconds 
+  Import took 0.012845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001957 seconds.
+  path: Assets/Sunnyland/artwork/Environment/props
+  artifactKey: Guid(15e7312e0607f4e84aeacdc44a70744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/props using Guid(15e7312e0607f4e84aeacdc44a70744c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef14071724558cefaa6476b5eb4eae9') in 0.003149 seconds 
+  Import took 0.006509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.669562 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/blocks.prefab
+  artifactKey: Guid(82aeec6d536d910488f088593d76c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/blocks.prefab using Guid(82aeec6d536d910488f088593d76c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a30f4484eed70a58bb4419f75da1204') in 0.069750 seconds 
+  Import took 0.074163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_68.asset
+  artifactKey: Guid(5d9be933a76501a458ea163ef920e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_68.asset using Guid(5d9be933a76501a458ea163ef920e181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5a8cd0d37c42b89292f6f3774636a0') in 0.011097 seconds 
+  Import took 0.014344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_23.asset
+  artifactKey: Guid(f91b461b3cd2b5743b0fe90fef56c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_23.asset using Guid(f91b461b3cd2b5743b0fe90fef56c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5557c0c613fb92745b87d9b94f5096') in 0.014592 seconds 
+  Import took 0.018002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_7.asset
+  artifactKey: Guid(9476e3b93bc9aa040b5e7b718d5fbcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_7.asset using Guid(9476e3b93bc9aa040b5e7b718d5fbcdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18e42a7589473fc486e62fd2b80a6aa') in 0.012322 seconds 
+  Import took 0.015393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_36.asset
+  artifactKey: Guid(c656ed374140d32448168b3345dfba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_36.asset using Guid(c656ed374140d32448168b3345dfba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc12f2528a400105153ee9ed5cffbd8') in 0.015475 seconds 
+  Import took 0.019059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_71.asset
+  artifactKey: Guid(b982fc3df8b29454397822c5b28d17da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_71.asset using Guid(b982fc3df8b29454397822c5b28d17da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c457593a9411ae990eff5d68481b17a3') in 0.012456 seconds 
+  Import took 0.015915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_62.asset
+  artifactKey: Guid(0a21022780afbe24d95856bc4b69e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_62.asset using Guid(0a21022780afbe24d95856bc4b69e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b1aba716d9643db34ff832444f288a') in 0.012638 seconds 
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_69.asset
+  artifactKey: Guid(f061ba85deba0b34ba4850edf1c58c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_69.asset using Guid(f061ba85deba0b34ba4850edf1c58c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a277a49cfe61eb17e87391f120844255') in 0.015226 seconds 
+  Import took 0.018380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_34.asset
+  artifactKey: Guid(8e29da7f26abb0743a2fee7b0a9c1bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_34.asset using Guid(8e29da7f26abb0743a2fee7b0a9c1bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47f6045f922a577bb9995d541faeb85') in 0.012143 seconds 
+  Import took 0.015377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_1.asset
+  artifactKey: Guid(ebd4090cc4b9c8841bae1dbcb8ae00b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_1.asset using Guid(ebd4090cc4b9c8841bae1dbcb8ae00b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351e19b73bf85ee62d62b6a4214ee23f') in 0.013981 seconds 
+  Import took 0.018898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_49.asset
+  artifactKey: Guid(9ba77b6388af6f74f9d512e22d4d7f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_49.asset using Guid(9ba77b6388af6f74f9d512e22d4d7f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd958b1d288f5a134e34ca8f85f0ff1') in 0.013746 seconds 
+  Import took 0.016950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_65.asset
+  artifactKey: Guid(94f50ed95724fe1449da9a7370af9997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_65.asset using Guid(94f50ed95724fe1449da9a7370af9997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9ad118c05d4b591b37c47fd9b8099d') in 0.011741 seconds 
+  Import took 0.014775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_12.asset
+  artifactKey: Guid(bd0d5bbab35b3984eb6abdc097833b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_12.asset using Guid(bd0d5bbab35b3984eb6abdc097833b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45153602abe5f7729f1065c7abd118c5') in 0.015095 seconds 
+  Import took 0.018303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_73.asset
+  artifactKey: Guid(0120670ad6bdbba47820ec314a92668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_73.asset using Guid(0120670ad6bdbba47820ec314a92668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba7749ed240f7bab7c0bb3dc108cd06') in 0.013772 seconds 
+  Import took 0.016780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_24.asset
+  artifactKey: Guid(cd8f60d13e8c07c41a383165b44526e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_24.asset using Guid(cd8f60d13e8c07c41a383165b44526e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd1d8fbc61a0ff82a4044b8f0c8823d') in 0.017465 seconds 
+  Import took 0.020821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_31.asset
+  artifactKey: Guid(dec690481a522cf44b4f6ec91bdbc37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_31.asset using Guid(dec690481a522cf44b4f6ec91bdbc37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221143dffd754a92a7157139cb2f6df3') in 0.012087 seconds 
+  Import took 0.015786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_30.asset
+  artifactKey: Guid(5227bedc4c30dc045a91431770c92730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_30.asset using Guid(5227bedc4c30dc045a91431770c92730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8421cb3df5e7679252462297545754b9') in 0.014605 seconds 
+  Import took 0.020205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_9.asset
+  artifactKey: Guid(b943b4e6f5d90cf4c8a95530f8691f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_9.asset using Guid(b943b4e6f5d90cf4c8a95530f8691f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c006dbd09725f0c449a08f5b31dd966') in 0.011922 seconds 
+  Import took 0.016065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_41.asset
+  artifactKey: Guid(a200dada3f334f24987bea0f58dc663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_41.asset using Guid(a200dada3f334f24987bea0f58dc663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79168ee0ca972549bb566b285f481344') in 0.023355 seconds 
+  Import took 0.026962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_11.asset
+  artifactKey: Guid(5d47e36eab1af014f9e92e7f1ea742c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_11.asset using Guid(5d47e36eab1af014f9e92e7f1ea742c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606c884b97f9a52ff4d9345b14543566') in 0.013286 seconds 
+  Import took 0.016881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_44.asset
+  artifactKey: Guid(e250cdc3bfda828449e96740eeedd36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_44.asset using Guid(e250cdc3bfda828449e96740eeedd36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e15fe909ba68905f2699b9be2a4967') in 0.014489 seconds 
+  Import took 0.017848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_45.asset
+  artifactKey: Guid(9c41696bae1e54a45952fff4ad4caf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_45.asset using Guid(9c41696bae1e54a45952fff4ad4caf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a1e050b0c65047bab2da442b3dd16b') in 0.013957 seconds 
+  Import took 0.017362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_5.asset
+  artifactKey: Guid(20841ce3b2c78b64fad4a715395c1d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_5.asset using Guid(20841ce3b2c78b64fad4a715395c1d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c1660393d37399fdcf445cd4b62e12') in 0.013896 seconds 
+  Import took 0.017888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000587 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_53.asset
+  artifactKey: Guid(a8e94a51c4924dc4fac10b475c1529fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_53.asset using Guid(a8e94a51c4924dc4fac10b475c1529fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e504804dfc58524cf79a72b74025d4') in 0.011065 seconds 
+  Import took 0.015826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_37.asset
+  artifactKey: Guid(0d7650b5d6eaa804e95f48eb832a1941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_37.asset using Guid(0d7650b5d6eaa804e95f48eb832a1941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dffb9219cc94473b106cc59ffdd29fb') in 0.012855 seconds 
+  Import took 0.018444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_8.asset
+  artifactKey: Guid(930d3a83e31d3f0449f3e863b1927492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_8.asset using Guid(930d3a83e31d3f0449f3e863b1927492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7f7166fbadfef0ae6401e2739f35c0') in 0.016587 seconds 
+  Import took 0.021028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_20.asset
+  artifactKey: Guid(dfd6704fb93327f49a8fa395d12b03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_20.asset using Guid(dfd6704fb93327f49a8fa395d12b03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e2496838fec9b38a88789c19730a14') in 0.013505 seconds 
+  Import took 0.017020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_25.asset
+  artifactKey: Guid(6eb304793d001114191902de96a51fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_25.asset using Guid(6eb304793d001114191902de96a51fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f88e3b4c5313664f2b2237cc8b2105') in 0.016010 seconds 
+  Import took 0.019586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_22.asset
+  artifactKey: Guid(1553096a11801d1449f259c753714e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_22.asset using Guid(1553096a11801d1449f259c753714e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b596e4b585a976d97ac617013329b1b') in 0.014690 seconds 
+  Import took 0.019130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_38.asset
+  artifactKey: Guid(dc093e6fc76f6034aa13fded912850cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_38.asset using Guid(dc093e6fc76f6034aa13fded912850cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a9ca636f1f957e536aa441c764f70a') in 0.020344 seconds 
+  Import took 0.024185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_42.asset
+  artifactKey: Guid(44d81e7964f5e48448fb6c11d4b1460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_42.asset using Guid(44d81e7964f5e48448fb6c11d4b1460a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e307c3f9b6724ea28107d62146988a5') in 0.017223 seconds 
+  Import took 0.021797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_13.asset
+  artifactKey: Guid(9ac0cf56a7e02ee49af001e5c5d69442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_13.asset using Guid(9ac0cf56a7e02ee49af001e5c5d69442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b9198b2b5bd6e4608dc860853df934') in 0.013838 seconds 
+  Import took 0.017737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_33.asset
+  artifactKey: Guid(1f6dd82cc5309ed4da590a47da27c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_33.asset using Guid(1f6dd82cc5309ed4da590a47da27c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ecc5d324121d22941fd850a32999e1') in 0.013844 seconds 
+  Import took 0.017983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000672 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_27.asset
+  artifactKey: Guid(b11c6fd8cebd5114a80c0c5749af0ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_27.asset using Guid(b11c6fd8cebd5114a80c0c5749af0ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1548e0e9cdae9511e4f1ef134e463c') in 0.015468 seconds 
+  Import took 0.021300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_51.asset
+  artifactKey: Guid(e0dcf9aa405601d4c941dfbf9dca24be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_51.asset using Guid(e0dcf9aa405601d4c941dfbf9dca24be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5892a3443b9c60ea94be56464695545c') in 0.017380 seconds 
+  Import took 0.021519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_55.asset
+  artifactKey: Guid(f3354a7b65c98e34f93d2f0992e4ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_55.asset using Guid(f3354a7b65c98e34f93d2f0992e4ba09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e010787fcd2493971ca225f585c7b53a') in 0.016869 seconds 
+  Import took 0.020456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_26.asset
+  artifactKey: Guid(8d20e1bac5ecc96449af41ec87a6258c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_26.asset using Guid(8d20e1bac5ecc96449af41ec87a6258c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14852e91f579e7e9eba04087842bcefb') in 0.016876 seconds 
+  Import took 0.021548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_50.asset
+  artifactKey: Guid(b5f895644f4982e42bdd450fc341bd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_50.asset using Guid(b5f895644f4982e42bdd450fc341bd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63040c79c2a7719317dcc9df2c8b95f4') in 0.016713 seconds 
+  Import took 0.021285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_54.asset
+  artifactKey: Guid(c16152d6a7b20ea40bfd32a2e4f81e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_54.asset using Guid(c16152d6a7b20ea40bfd32a2e4f81e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d3a06a5c14db2fe3d7b708a2654f22') in 0.015126 seconds 
+  Import took 0.018906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_63.asset
+  artifactKey: Guid(73991d13b9ad5524ea48c4d251ed57c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_63.asset using Guid(73991d13b9ad5524ea48c4d251ed57c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9028ecced13e79d667ef168f6946a203') in 0.014909 seconds 
+  Import took 0.020499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_28.asset
+  artifactKey: Guid(9bcd6dd8acea9644781ca9edda14a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_28.asset using Guid(9bcd6dd8acea9644781ca9edda14a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6523469da8c9779c626957b7c4d07156') in 0.015870 seconds 
+  Import took 0.021439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_72.asset
+  artifactKey: Guid(306f7c6b71fed2d4ebdb99116db7eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_72.asset using Guid(306f7c6b71fed2d4ebdb99116db7eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33cde84612f16b72231c8a503c498f0') in 0.015276 seconds 
+  Import took 0.019466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_52.asset
+  artifactKey: Guid(d1e0697bf1ed2e340b593a8cc53d8c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_52.asset using Guid(d1e0697bf1ed2e340b593a8cc53d8c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18aa05a8e7485fd5bdaf4dfcaa88ac72') in 0.017377 seconds 
+  Import took 0.021482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_60.asset
+  artifactKey: Guid(9b1cd63077868224d9e7874d85e6728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_60.asset using Guid(9b1cd63077868224d9e7874d85e6728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e343d896ea2f721c30c120ce07fd1151') in 0.014385 seconds 
+  Import took 0.017978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_59.asset
+  artifactKey: Guid(6f2b4ad7b3ce90348983f5bab3559864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_59.asset using Guid(6f2b4ad7b3ce90348983f5bab3559864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc74e246db3caa338206336a87d3fb8') in 0.014797 seconds 
+  Import took 0.018901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_6.asset
+  artifactKey: Guid(acfae32854817384ab7c56d2c60099fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_6.asset using Guid(acfae32854817384ab7c56d2c60099fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e8e98c2c15d303f9625f5c8732e10c') in 0.014153 seconds 
+  Import took 0.019541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_17.asset
+  artifactKey: Guid(936670965fc4edf42aba1fe9d5186899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_17.asset using Guid(936670965fc4edf42aba1fe9d5186899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d9a817fed66e8e99327d495cce0ead') in 0.012589 seconds 
+  Import took 0.017387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_15.asset
+  artifactKey: Guid(b691e3051726a364f9df5cfe0946bc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_15.asset using Guid(b691e3051726a364f9df5cfe0946bc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27671245dcfdde6b5122f405506832e6') in 0.015555 seconds 
+  Import took 0.018835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_0.asset
+  artifactKey: Guid(b9329241910cee14f84283cf18efa143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_0.asset using Guid(b9329241910cee14f84283cf18efa143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c079c04141d1075cf3ca65d2d339bed2') in 0.015270 seconds 
+  Import took 0.018855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_43.asset
+  artifactKey: Guid(de9faa7fe66719241926b98f86166f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_43.asset using Guid(de9faa7fe66719241926b98f86166f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3079a86498f55bea5ef8a0d4d6c650b0') in 0.017084 seconds 
+  Import took 0.021665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_56.asset
+  artifactKey: Guid(e38ea427bf5ff2447ad250f28ff5fc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_56.asset using Guid(e38ea427bf5ff2447ad250f28ff5fc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2e3bdf0cadbe36d8123ac0653bf5b3') in 0.015142 seconds 
+  Import took 0.019127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000922 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_4.asset
+  artifactKey: Guid(660e38ca68b782e4b960e94318c7a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_4.asset using Guid(660e38ca68b782e4b960e94318c7a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba72c542949aa82f6ea2c4681b55bd20') in 0.011997 seconds 
+  Import took 0.019807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_29.asset
+  artifactKey: Guid(7e8d7aa213435b14f98c604400c7f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_29.asset using Guid(7e8d7aa213435b14f98c604400c7f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748bfd81c9319f3df5217777e2444570') in 0.016351 seconds 
+  Import took 0.020424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_40.asset
+  artifactKey: Guid(ba5568c6851a8874e9aec26a12a5c2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_40.asset using Guid(ba5568c6851a8874e9aec26a12a5c2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055ee47f7ab72223b602596e1e7a7678') in 0.014931 seconds 
+  Import took 0.019205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_58.asset
+  artifactKey: Guid(998d1a8c20934a04da18b7938b65043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_58.asset using Guid(998d1a8c20934a04da18b7938b65043f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd104e98a66fa4cb3010d8b8bff38a813') in 0.012817 seconds 
+  Import took 0.016498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_2.asset
+  artifactKey: Guid(e387e14e78e8f07438a16f3d6fed8448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_2.asset using Guid(e387e14e78e8f07438a16f3d6fed8448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9db30a4ff837b2e5c4aea521d638b6') in 0.015071 seconds 
+  Import took 0.018655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_46.asset
+  artifactKey: Guid(bd14fe018c7b8874899b18d0714e6eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_46.asset using Guid(bd14fe018c7b8874899b18d0714e6eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10407979e00332c949301890ff65eb0c') in 0.011594 seconds 
+  Import took 0.016370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_16.asset
+  artifactKey: Guid(1cdbb68f99fd69f4d800978bb761dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_16.asset using Guid(1cdbb68f99fd69f4d800978bb761dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f577b265da2b00516c870fed4cab6d') in 0.012222 seconds 
+  Import took 0.017374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_39.asset
+  artifactKey: Guid(f78a8e943356475449472e878fe22e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_39.asset using Guid(f78a8e943356475449472e878fe22e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdf9ef02890ae0f866c507e7aa3c90d') in 0.011982 seconds 
+  Import took 0.017725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_74.asset
+  artifactKey: Guid(1d4d042619b788d43958b196e6f15da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_74.asset using Guid(1d4d042619b788d43958b196e6f15da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d7cf027317bf35d4cb58d1a4a5afa8') in 0.015008 seconds 
+  Import took 0.019086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_35.asset
+  artifactKey: Guid(588fef85cdee8b245beb70a1c874ff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_35.asset using Guid(588fef85cdee8b245beb70a1c874ff9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2844d5e5dcb6cd1bacd621a713291') in 0.013180 seconds 
+  Import took 0.016936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_19.asset
+  artifactKey: Guid(3d944b81417507f409b56f6d30de0057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_19.asset using Guid(3d944b81417507f409b56f6d30de0057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3254f65d9eab44ee564c716a04ef33d6') in 0.015932 seconds 
+  Import took 0.020813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_21.asset
+  artifactKey: Guid(a899c26a2dfaa354aa30f19cb684e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_21.asset using Guid(a899c26a2dfaa354aa30f19cb684e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13966887dafbccb315ac3502933d05c4') in 0.013766 seconds 
+  Import took 0.017520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_66.asset
+  artifactKey: Guid(745da6f3eda510e45b426b03ec6d4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_66.asset using Guid(745da6f3eda510e45b426b03ec6d4764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4e0ecd1e2eefc0a19fb343edfc8488') in 0.014800 seconds 
+  Import took 0.018034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_47.asset
+  artifactKey: Guid(d2bae54f9629c6c48acc171c099f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_47.asset using Guid(d2bae54f9629c6c48acc171c099f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2631e5c9e4833684b4fc112301d9a0') in 0.013970 seconds 
+  Import took 0.017312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_18.asset
+  artifactKey: Guid(9232117ff97e5d64d8cf29596877e3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_18.asset using Guid(9232117ff97e5d64d8cf29596877e3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bb4037c47c116b83eb25f8592eaf33') in 0.017031 seconds 
+  Import took 0.021892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_57.asset
+  artifactKey: Guid(5152d40a83a04b341954b82fa0c09190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_57.asset using Guid(5152d40a83a04b341954b82fa0c09190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545c3eb774ab1edc9c58f4de3e431567') in 0.015457 seconds 
+  Import took 0.019447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_61.asset
+  artifactKey: Guid(3eb7490877006e94e9a5b008c8131c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_61.asset using Guid(3eb7490877006e94e9a5b008c8131c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdb3ea1735d131ae716f8eef20fdbac') in 0.013559 seconds 
+  Import took 0.017406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_70.asset
+  artifactKey: Guid(e30a89d851bdd1e45b4edb0010c17085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_70.asset using Guid(e30a89d851bdd1e45b4edb0010c17085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d3a768362b6feac4d9efcbd2808feb') in 0.014050 seconds 
+  Import took 0.017434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_32.asset
+  artifactKey: Guid(2e1d9c0851d55a348bd76edd276f4203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_32.asset using Guid(2e1d9c0851d55a348bd76edd276f4203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1576931299417498f067415dd8e2f4d') in 0.015057 seconds 
+  Import took 0.018315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_67.asset
+  artifactKey: Guid(cb9f18af33d5da14098afed278ad024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_67.asset using Guid(cb9f18af33d5da14098afed278ad024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c785571277233ec072570ed105c748') in 0.014095 seconds 
+  Import took 0.017297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_3.asset
+  artifactKey: Guid(e1fe42dc65497c84fb4fc731e7a08e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_3.asset using Guid(e1fe42dc65497c84fb4fc731e7a08e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f461b8bc053e88440a7048da1eb1be31') in 0.016734 seconds 
+  Import took 0.020319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_10.asset
+  artifactKey: Guid(d8cc2c543ca83dc4b9e51b0c4725cf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_10.asset using Guid(d8cc2c543ca83dc4b9e51b0c4725cf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b46b201f66fa417dbe7bf2f71c9863') in 0.012427 seconds 
+  Import took 0.018055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000823 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_14.asset
+  artifactKey: Guid(55db6d5a0c43a49489ad18b5f8ebf815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_14.asset using Guid(55db6d5a0c43a49489ad18b5f8ebf815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd468b93a08ea17e9bb854035800b497a') in 0.011989 seconds 
+  Import took 0.018087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_48.asset
+  artifactKey: Guid(fe61e88f56a6bb4428e3577327df5698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_48.asset using Guid(fe61e88f56a6bb4428e3577327df5698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400a6f52205df731536711c82dafb8f6') in 0.012787 seconds 
+  Import took 0.017389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_64.asset
+  artifactKey: Guid(3e8d1f86c3273ed4aa2127a3e5ce0a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_64.asset using Guid(3e8d1f86c3273ed4aa2127a3e5ce0a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f45455131cdf2394fb6d4c809bd6ee') in 0.015336 seconds 
+  Import took 0.019565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.263522 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_75.asset
+  artifactKey: Guid(9758cc0d09e9307498d6242653d9b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_75.asset using Guid(9758cc0d09e9307498d6242653d9b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd118d37a8d95f7237df39cd93cb1089d') in 0.013820 seconds 
+  Import took 0.017439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_85.asset
+  artifactKey: Guid(79f5bc06b06792447b2252609ca0a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_85.asset using Guid(79f5bc06b06792447b2252609ca0a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0cb76c607d5e74c1da04846d36c935') in 0.017028 seconds 
+  Import took 0.020213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_88.asset
+  artifactKey: Guid(c1e380ccd5336f941a3e783ed7d959b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_88.asset using Guid(c1e380ccd5336f941a3e783ed7d959b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3908e0f4d9018c5b6819896b564d8f0c') in 0.013498 seconds 
+  Import took 0.017587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_87.asset
+  artifactKey: Guid(a42ecfc75b1dbf743934ccc0a60eaa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_87.asset using Guid(a42ecfc75b1dbf743934ccc0a60eaa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07badf32252ea5602a2bc5587ce6f870') in 0.013147 seconds 
+  Import took 0.017379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_76.asset
+  artifactKey: Guid(4e974fa58fe2dca4aa0ea2fe5b541d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_76.asset using Guid(4e974fa58fe2dca4aa0ea2fe5b541d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb11379c5192cd0b737a149a09f9031e') in 0.013386 seconds 
+  Import took 0.016784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_101.asset
+  artifactKey: Guid(289498f8ecbcc4e4e863be3dbb6e8211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_101.asset using Guid(289498f8ecbcc4e4e863be3dbb6e8211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a982f634593f573d70b11296778806') in 0.013115 seconds 
+  Import took 0.017345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_106.asset
+  artifactKey: Guid(7a7227761630a824db61692bf6f42ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_106.asset using Guid(7a7227761630a824db61692bf6f42ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170c0767804460ed8301c82cfa3a2d84') in 0.012270 seconds 
+  Import took 0.016758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_102.asset
+  artifactKey: Guid(4d1b53640c43cd64eaccb5f969af2d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_102.asset using Guid(4d1b53640c43cd64eaccb5f969af2d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febdca2cc4844058326ec632c9288645') in 0.014446 seconds 
+  Import took 0.019167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_103.asset
+  artifactKey: Guid(a6ca0fa7c79311b4ba80e8b6ed4ca4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_103.asset using Guid(a6ca0fa7c79311b4ba80e8b6ed4ca4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a036aeae41e69949bc4eb6ac58a5d7f1') in 0.011141 seconds 
+  Import took 0.014893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_119.asset
+  artifactKey: Guid(3bdab22a1008e4a42b263111ce50e83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_119.asset using Guid(3bdab22a1008e4a42b263111ce50e83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfedc8ac87f970ad4fe35574deb16bab') in 0.013918 seconds 
+  Import took 0.020071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_115.asset
+  artifactKey: Guid(e934e6b6eedcad842b050d2488d16c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_115.asset using Guid(e934e6b6eedcad842b050d2488d16c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3374e8d6fb8f11fdbc7bf92ce7e2afa3') in 0.011425 seconds 
+  Import took 0.015538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_98.asset
+  artifactKey: Guid(abd5baf555e0fca4a803735b72d57db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_98.asset using Guid(abd5baf555e0fca4a803735b72d57db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1c31a8d1e6235f7635692be0448e60') in 0.014934 seconds 
+  Import took 0.019918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_80.asset
+  artifactKey: Guid(2d6cba196a5d6e948977866335b79d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_80.asset using Guid(2d6cba196a5d6e948977866335b79d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adac2f44cbfda4c4118a8722ca2af117') in 0.014098 seconds 
+  Import took 0.019204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_92.asset
+  artifactKey: Guid(7b8089e956dd89043b1531c25157ef96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_92.asset using Guid(7b8089e956dd89043b1531c25157ef96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b192dfcf74eabadaf02161b8cfbf79c1') in 0.015491 seconds 
+  Import took 0.019436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_99.asset
+  artifactKey: Guid(e8ed6322f578ac741866d1f7e2153086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_99.asset using Guid(e8ed6322f578ac741866d1f7e2153086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f4df5bbaebf857fd66c74654958bfc') in 0.012618 seconds 
+  Import took 0.015749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_77.asset
+  artifactKey: Guid(f6d164881d39df14db3e8c99bc22ca91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_77.asset using Guid(f6d164881d39df14db3e8c99bc22ca91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6164eaab3fb38078675c6a8eec5b483') in 0.014479 seconds 
+  Import took 0.017956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_78.asset
+  artifactKey: Guid(e3433db9668f21848b87da2bebab5003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_78.asset using Guid(e3433db9668f21848b87da2bebab5003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a58bda97f9489516d16e48ac86c06b3') in 0.013843 seconds 
+  Import took 0.017083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_84.asset
+  artifactKey: Guid(a5e95e4ccd16c9548ad0f21ff0536a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_84.asset using Guid(a5e95e4ccd16c9548ad0f21ff0536a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0924df4d12fa590ed4995166ccf79e2') in 0.015479 seconds 
+  Import took 0.021005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_104.asset
+  artifactKey: Guid(7752cbb4a630510418e3e960cbfa412c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_104.asset using Guid(7752cbb4a630510418e3e960cbfa412c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff26e8ccbf60fee2e9933cb0cda5de3') in 0.013529 seconds 
+  Import took 0.018232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_105.asset
+  artifactKey: Guid(8e7f9edf83a124b4ba17eb5e3b8c80a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_105.asset using Guid(8e7f9edf83a124b4ba17eb5e3b8c80a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d2cb278b2bc3c2d470384a16d6f770') in 0.012498 seconds 
+  Import took 0.016831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_109.asset
+  artifactKey: Guid(2de7f69cb95245145b45ad3624366264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_109.asset using Guid(2de7f69cb95245145b45ad3624366264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9ed4ebdc1e6bdbeec0257853adece5') in 0.015180 seconds 
+  Import took 0.019478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_89.asset
+  artifactKey: Guid(cb00b729df166fb44b8d9c14882d693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_89.asset using Guid(cb00b729df166fb44b8d9c14882d693a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108f0e38cc236045379b4d42299cecd9') in 0.014538 seconds 
+  Import took 0.017624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_86.asset
+  artifactKey: Guid(51c47a0ba03231543bdb5c342c9c54df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_86.asset using Guid(51c47a0ba03231543bdb5c342c9c54df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65719220245fd55e9bfa1df0167a4ab') in 0.015023 seconds 
+  Import took 0.018595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_108.asset
+  artifactKey: Guid(424ccab3311626b47a04ea54b4d59309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_108.asset using Guid(424ccab3311626b47a04ea54b4d59309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f59a626012d0514a78a5ab2aaed0b79') in 0.015479 seconds 
+  Import took 0.018983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_94.asset
+  artifactKey: Guid(1b1cb55fece701d4098084528412f3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_94.asset using Guid(1b1cb55fece701d4098084528412f3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0313c23108ded7b7e24f49beaf1315') in 0.012969 seconds 
+  Import took 0.019390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_81.asset
+  artifactKey: Guid(9e5e4f103737315489e7a3d38fdff8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_81.asset using Guid(9e5e4f103737315489e7a3d38fdff8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee71ab86c6757f11dde9dc330356ffe0') in 0.011564 seconds 
+  Import took 0.015793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_110.asset
+  artifactKey: Guid(b452ca4268516c642a4270f8a977e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_110.asset using Guid(b452ca4268516c642a4270f8a977e22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7336afd7a91b94b43ea4224051217ef3') in 0.012123 seconds 
+  Import took 0.016711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_116.asset
+  artifactKey: Guid(841da3a61a6c1bd4a97e3c59d19fd3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_116.asset using Guid(841da3a61a6c1bd4a97e3c59d19fd3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b585fc20f5ee3300fb3ac87634e96c75') in 0.011664 seconds 
+  Import took 0.016289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_107.asset
+  artifactKey: Guid(bb7bf58dc0b7f41478d4521ef25bc8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_107.asset using Guid(bb7bf58dc0b7f41478d4521ef25bc8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b506356c5915611bc7c4290589a3f681') in 0.014430 seconds 
+  Import took 0.018252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_95.asset
+  artifactKey: Guid(0a39e1a2e7cf369458850820d2cf6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_95.asset using Guid(0a39e1a2e7cf369458850820d2cf6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9182d492a3689dea7bb1bdf04d5ddd10') in 0.016460 seconds 
+  Import took 0.020521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_91.asset
+  artifactKey: Guid(6c8214954b35b8c438a536699e28c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_91.asset using Guid(6c8214954b35b8c438a536699e28c58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeef26eef97188320a3da7d032f3e61') in 0.013817 seconds 
+  Import took 0.017469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_79.asset
+  artifactKey: Guid(97da8d807c334db43b8fb461bd72b276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_79.asset using Guid(97da8d807c334db43b8fb461bd72b276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491daf9a8174c8feea735df80ee4a23c') in 0.014453 seconds 
+  Import took 0.018691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_83.asset
+  artifactKey: Guid(0d7152a5c2a15074a9f341ec78189a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_83.asset using Guid(0d7152a5c2a15074a9f341ec78189a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ca4c96076c9096fd576b4e0a3f028e') in 0.013002 seconds 
+  Import took 0.016221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_100.asset
+  artifactKey: Guid(df980955116a2a94281ea2d21cb14576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_100.asset using Guid(df980955116a2a94281ea2d21cb14576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955314627268bf6b140aba633541bf54') in 0.016547 seconds 
+  Import took 0.019569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_93.asset
+  artifactKey: Guid(2f777ee3e0eaaf347a63e4a8c9b27c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_93.asset using Guid(2f777ee3e0eaaf347a63e4a8c9b27c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ecb1df06b46a3a55245ed88ce3249e') in 0.014566 seconds 
+  Import took 0.019139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_111.asset
+  artifactKey: Guid(702366022bbe45945ba6e451f8627e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_111.asset using Guid(702366022bbe45945ba6e451f8627e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942c31a1297bceef1ac5a0375827b552') in 0.011469 seconds 
+  Import took 0.016313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_96.asset
+  artifactKey: Guid(b8f7ff3fcaaab434392c16bfc5873db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_96.asset using Guid(b8f7ff3fcaaab434392c16bfc5873db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f88ed8d531175576a222c2bc6120bb') in 0.015313 seconds 
+  Import took 0.018629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_114.asset
+  artifactKey: Guid(b8925f72b1dcd1345b091538b9ac6263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_114.asset using Guid(b8925f72b1dcd1345b091538b9ac6263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d0e08b70773432e3f7beda8b52c81d') in 0.016473 seconds 
+  Import took 0.020523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_97.asset
+  artifactKey: Guid(0fc60ee764e2b024f8916285c70682b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_97.asset using Guid(0fc60ee764e2b024f8916285c70682b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a30f7c6ed2c9da7b8fdb039eed8251f') in 0.013825 seconds 
+  Import took 0.017591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_75.asset
+  artifactKey: Guid(9758cc0d09e9307498d6242653d9b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_75.asset using Guid(9758cc0d09e9307498d6242653d9b998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd118d37a8d95f7237df39cd93cb1089d') in 0.009055 seconds 
+  Import took 0.013405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_82.asset
+  artifactKey: Guid(938daa76c8bc3714eaa84670d363b51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_82.asset using Guid(938daa76c8bc3714eaa84670d363b51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd77194b18471050bc0b27ce7a2d67e') in 0.014418 seconds 
+  Import took 0.019211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_112.asset
+  artifactKey: Guid(ecb6fefe1dcb59244a4c1fcd7995813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_112.asset using Guid(ecb6fefe1dcb59244a4c1fcd7995813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daa051f100f0cb38fa8d834d7b48797') in 0.014716 seconds 
+  Import took 0.018453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_118.asset
+  artifactKey: Guid(c6fb6ed364eaca446be3e3c90a7a4927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_118.asset using Guid(c6fb6ed364eaca446be3e3c90a7a4927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dee67b5d060dbbff3eda13c69859a89') in 0.012964 seconds 
+  Import took 0.016269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_90.asset
+  artifactKey: Guid(57ba07c40a4b5534f9c4ae5958d8befa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_90.asset using Guid(57ba07c40a4b5534f9c4ae5958d8befa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4c4dbf5994e0e745ffcafdf2378ad3') in 0.016009 seconds 
+  Import took 0.021628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_113.asset
+  artifactKey: Guid(ff2c76595fdb59d46a910eaa64ecb85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_113.asset using Guid(ff2c76595fdb59d46a910eaa64ecb85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00806d23d2a918bae5856bdceddb4e24') in 0.012745 seconds 
+  Import took 0.017481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_117.asset
+  artifactKey: Guid(96569a72deaa3e14b8ecb3dbedbd7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sunnyland/artwork/Environment/tilemap/tileset-sliced_117.asset using Guid(96569a72deaa3e14b8ecb3dbedbd7faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b135d911aaa678c34e4fe067555e3a') in 0.014418 seconds 
+  Import took 0.018979 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1082ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (866ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (354ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 2.973700 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.058100 ms MarkObjects: 2.708900 ms  DeleteObjects: 0.015700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006995 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.635 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1636ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1380ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (565ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (441ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 4.130200 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.136300 ms MarkObjects: 3.742800 ms  DeleteObjects: 0.043700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

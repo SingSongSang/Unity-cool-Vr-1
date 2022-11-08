@@ -1571,6 +1571,10 @@ PrefabInstance:
       propertyPath: speed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5786503888724674471, guid: d9daa93f343eedb48909d98618c99ae6, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 141669735}
     - target: {fileID: 5786503888724674474, guid: d9daa93f343eedb48909d98618c99ae6, type: 3}
       propertyPath: m_Name
       value: player-idle-1

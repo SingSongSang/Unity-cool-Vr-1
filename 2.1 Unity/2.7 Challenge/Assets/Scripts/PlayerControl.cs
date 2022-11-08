@@ -39,14 +39,9 @@ public class PlayerControl : MonoBehaviour
             anim.SetBool("Moving", false);
         }
 
-        //Jumping Movement
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            rb.AddForce(transform.up * jump);
-        }
 
         //animation for jumping, also turns off walking animation 
-        if (Input.GetKey(KeyCode.W))
+        if (rb.velocity.y != 0)
         {
             anim.SetBool("Jumping", true);
             anim.SetBool("Moving", false);
@@ -54,6 +49,14 @@ public class PlayerControl : MonoBehaviour
         else
         {
             anim.SetBool("Jumping", false);
+        }
+        if(rb.velocity.y == 0)
+        {
+            //Jumping Movement
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                rb.AddForce(transform.up * jump);
+            }
         }
     }
 }

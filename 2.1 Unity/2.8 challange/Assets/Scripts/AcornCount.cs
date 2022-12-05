@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class AcornCount : MonoBehaviour
 {
-    public float lives = 3;
-    public float acornCount;
+    static public float lives = 3;
+    static public float acornCount = 0;
     public Text acornsAquired;
     public Text LIVES;
     void Start()
@@ -23,7 +23,7 @@ public class AcornCount : MonoBehaviour
         if (lives == 0)
         {
             Debug.Log("Death");
-            Destroy(gameObject);
+            SceneManager.LoadScene(0);
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -39,10 +39,19 @@ public class AcornCount : MonoBehaviour
         if (collision.gameObject.tag == "Death wall")
         {
             lives = 0;
+            SceneManager.LoadScene(0);
         }
         if (collision.gameObject.tag == "Door")
         {
-            SceneManager.LoadScene(2);
+            if (acornCount == 11)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            else
+            {
+                SceneManager.LoadScene(0);
+            }
+
         }
     }
     

@@ -53,6 +53,7 @@ public class PlayerControl : MonoBehaviour
         }
         if (collision.gameObject.tag == "Death wall")
         {
+            Destroy(gameObject);
             Debug.Log("Death");
         }
     }
